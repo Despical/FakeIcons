@@ -23,8 +23,7 @@ void DrawIcons() {
 
 int main() {
     while (1) {
-
-        SetCursorPos(rand() % SCREEN_WIDTH, rand() % SCREEN_HEIGHT);
+        DrawIcons();
     }
 
     return 0;
